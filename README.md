@@ -6,4 +6,5 @@
    > lib:
       All custom Libraries uses the Memonto design pattern
 ##### Links
-   > Link to postman doc:  
+   > Link to postman doc: https://documenter.getpostman.com/view/20227535/UyxbqV8j
+   > Link to server: https://kobo360test.onrender.com/
