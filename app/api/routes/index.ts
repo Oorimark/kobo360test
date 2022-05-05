@@ -53,7 +53,7 @@ routes.route("/character")
    });
 
 
-// sub character route: it handles search by something
+// sub character route: it handles searching for character
 routes.get("/character/:first_name", (req: Request, res: Response) => {
    // you can search character by first_name only
    CharacterOrigin.fetchCharacter(req.params)
@@ -111,4 +111,4 @@ routes.get("/movies/:movie_name/", (req: Request, res: Response) => {
 
 
 // === RECOMMENDATIONS === 
-// The response should be check before rendering message as "success"
+// The response should be checked before rendering message as "success"
